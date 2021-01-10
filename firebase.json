@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "shoyocreamery",
+    "public": "./public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

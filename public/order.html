@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SHoYo Creamery | Order Online</title>
+	<link rel="shortcut icon" type="image/jpg" href="images/SHOYO.jpg" />
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<header>
+		<a href="index.html">Home</a>
+		<a href="order.html">Order Online</a>
+		<a href="contact.html">Contact Us</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="feedback.html">Feedback</a>
+	</header>
+	<div class="container">
+		<div class="circle">
+			<span class="grow">SHoYo!<br>
+				Creamery</span>
+		</div>
+		<div class="MYO">
+			MAKE YOUR ORDER!
+		</div>
+		<div class="conditions">
+			<span> Yogurt type</span>
+			<span>Sugar</span>
+			<span>Bottle size</span>
+			<span>Flavour</span>
+		</div>
+		<div class="options">
+			<div>
+				<input type="radio" name="yt" value="Regular-yogurt">
+				<label for="Regular-yogurt">Regular Yogurt</label><br>
+				<input type="radio" name="yt" value="Greek-yogurt">
+				<label for="Greek-yogurt">Greek Yogurt</label>
+			</div>
+
+			<div>
+				<input type="radio" name="sugar" value="sweetened">
+				<label for="sweetened">Sweetened</label><br>
+				<input type="radio" name="sugar" value="unsweetened">
+				<label for="unsweetened">Unsweetened</label>
+			</div>
+
+			<div>
+				<input type="radio" name="size" value="small">
+				<label for="small">Small #400</label><br>
+				<input type="radio" name="size" value="medium">
+				<label for="medium">Medium #800</label><br>
+				<input type="radio" name="size" value="large">
+				<label for="large">Large #1200</label>
+			</div>
+
+			<div>
+				<input type="radio" name="flavour" value="plain">
+				<label for="plain">Plain</label><br>
+				<input type="radio" name="flavour" value="vanilla">
+				<label for="vanilla">Vanilla</label><br>
+				<input type="radio" name="flavour" value="strawberry">
+				<label for="strawberry">Strawberry</label><br>
+				<input type="radio" name="flavour" value="banana">
+				<label for="banana">Banana</label><br>
+				<input type="radio" name="flavour" value="pineapple">
+				<label for="pineapple">Pineapple</label><br>
+				<input type="radio" name="flavour" value="orange">
+				<label for="orange">Orange</label>
+			</div>
+
+		</div>
+
+
+
+		<div class="quantity">
+			<form>
+				<label for="quantity">Quantity:</label>
+				<input type="number" id="quantity" name="quantity" min="0" max="20" step="1" value="0"><br>
+				<input type="Submit" value="Check Out!" class="submit-order">
+			</form>
+		</div>
+	</div>
+
+</body>
+
+</html>
